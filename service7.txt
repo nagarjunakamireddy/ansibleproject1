@@ -1,0 +1,6 @@
+---
+ - name: create a debug file
+   hosts: naga
+   tasks:
+    - name: display the below line 
+      debug: msg="this is nagarjunareddy"
